@@ -29,6 +29,7 @@ Vite+React+TS 환경에서 Jest 테스팅 라이브러리를 사용합니다.
 1. 기본사용법 익히기
 2. 기존에 동작하는 코드의 테스트코드를 작성해보기
 3. 테스트 코드를 먼저 짜고 코드로 구현해보기
+4. [Vite에서 jest 사용하기](https://github.com/sodatea/vite-jest/tree/main/packages/vite-jest#limitations-and-differences-with-commonjs-tests)
 
 ## 시작하기
 
