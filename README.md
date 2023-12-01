@@ -68,16 +68,13 @@ package.json
 
 첫 실행에 테스트는 통과됐지만 아래와 같은 warning 메세지 발생.
 
-`tsconfig.json` > compilerOptions에 아래 설정 추가
-`"esModuleInterop": true`
+> ts-jest[config] (WARN) message TS151001: If you have issues related to imports, you should consider setting `esModuleInterop` to `true` in your TypeScript configuration file (usually `tsconfig.json`). See https://blogs.msdn.microsoft.com/typescript/2018/01/31/announcing-typescript-2-7/#easier-ecmascript-module-interoperability for more information.
 
-```
-ts-jest[config] (WARN) message TS151001: If you have issues related to imports, you should consider setting `esModuleInterop` to `true` in your TypeScript configuration file (usually `tsconfig.json`). See https://blogs.msdn.microsoft.com/typescript/2018/01/31/announcing-typescript-2-7/#easier-ecmascript-module-interoperability for more information.
-```
+`tsconfig.json` 파일 `compilerOptions` 에 `"esModuleInterop": true,` 추가.
 
 추가 후 warning 없이 정상 실행 됨
 
-<img alt="덧셈 테스트 실행 결과 이미지" src="./docs/image/addtest_result.png" width="60%">
+<img alt="덧셈 테스트 실행 결과 이미지" src="./docs/images/addtest_result.png" width="60%">
 
 ---
 
