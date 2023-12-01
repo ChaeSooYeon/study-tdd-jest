@@ -78,3 +78,7 @@ ts-jest[config] (WARN) message TS151001: If you have issues related to imports, 
 추가 후 warning 없이 정상 실행 됨
 
 <img alt="덧셈 테스트 실행 결과 이미지" src="./docs/image/addtest_result.png" width="60%">
+
+---
+
+🔗 Typescript에서 jest 사용법 참고 : https://rutgo-letsgo.tistory.com/289
